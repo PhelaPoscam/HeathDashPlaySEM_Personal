@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sedl:SEM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sev="urn:mpeg:mpeg-v:2010:01-SEV-NS" xmlns:sedl="urn:mpeg:mpeg-v:2010:01-SEDL-NS" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2004" xmlns:si="urn:mpeg:mpeg21:2003:01-DIA-XSI-NS" si:puMode="ancestorsDescendants" si:absTimeScheme="mp7t" si:timeScale="90000" xsi:schemaLocation="urn:mpeg:mpeg21:2003:01-DIA-XSI-NS http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-21_schema_files/dia-2nd/XSI-2nd.xsd urn:mpeg:mpeg-v:2010:01-SEV-NS http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-V_schema_files/MPEG-V-SEV.xsd urn:mpeg:mpeg7:schema:2004 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-7_schema_files/mpeg7-v2.xsd">
+	<sedl:GroupOfEffects si:pts="0" si:anchorElement="true">
+		<sedl:Effect xsi:type="sev:LightType" activate="true" autoExtraction="both" />
+		<sedl:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="30"/>
+	</sedl:GroupOfEffects>
+	<sedl:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="5" si:pts="585000" si:anchorElement="true"/>
+	<sedl:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="10" si:pts="747000" si:anchorElement="true"/>
+	<sedl:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="30" si:pts="900000" si:anchorElement="true"/>
+	<sedl:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="50" si:pts="1143000" si:anchorElement="true"/>
+	<sedl:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="20" si:pts="1260000" si:anchorElement="true"/>
+	<sedl:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="80" si:pts="1593000" si:anchorElement="true"/>
+	<sedl:GroupOfEffects si:pts="1647000" si:anchorElement="true">
+		<sedl:Effect xsi:type="sev:VibrationType" activate="true" intensity-range="0 100" intensity-value="10"/>
+		<sedl:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="5"/>
+	</sedl:GroupOfEffects>
+	<sedl:Effect xsi:type="sev:VibrationType" activate="false" si:pts="1683000" si:anchorElement="true"/>
+	<sedl:Effect xsi:type="sev:WindType" activate="false" si:pts="1890000" si:anchorElement="true"/>
+	<sedl:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="10" si:pts="2070000" si:anchorElement="true"/>
+	<sedl:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="5" si:pts="2250000" si:anchorElement="true"/>
+	<sedl:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="10" si:pts="2349000" si:anchorElement="true"/>
+	<sedl:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="20" si:pts="2466000" si:anchorElement="true"/>
+	<sedl:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="5" si:pts="2556000" si:anchorElement="true"/>
+	<sedl:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="10" si:pts="2583000" si:anchorElement="true"/>
+	<sedl:Effect xsi:type="sev:WindType" activate="false" si:pts="2628000" si:anchorElement="true"/>
+	<sedl:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="5" si:pts="2844000" si:anchorElement="true"/>
+	<sedl:Effect xsi:type="sev:WindType" activate="false" si:pts="2880000" si:anchorElement="true"/>
+	<sedl:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="15" si:pts="2970000" si:anchorElement="true"/>
+	<sedl:Effect xsi:type="sev:WindType" activate="false" si:pts="3051000" si:anchorElement="true"/>
+	<sedl:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="15" si:pts="3204000" si:anchorElement="true"/>
+	<sedl:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="25" si:pts="3438000" si:anchorElement="true"/>
+	<sedl:Effect xsi:type="sev:WindType" activate="false" si:pts="3528000" si:anchorElement="true"/>
+	<sedl:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="50" si:pts="3708000" si:anchorElement="true"/>
+	<sedl:Effect xsi:type="sev:WindType" activate="false" si:pts="4031999" si:anchorElement="true"/>
+	<sedl:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="20" si:pts="4374000" si:anchorElement="true"/>
+	<sedl:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="10" si:pts="4410000" si:anchorElement="true"/>
+	<sedl:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="80" si:pts="4482000" si:anchorElement="true"/>
+	<sedl:Effect xsi:type="sev:WindType" activate="false" si:pts="4518000" si:anchorElement="true"/>
+	<sedl:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="30" si:pts="4680000" si:anchorElement="true"/>
+	<sedl:Effect xsi:type="sev:WindType" activate="true" intensity-range="0 100" intensity-value="80" fade="171000" si:pts="4689000" si:anchorElement="true"/>	
+	<sedl:Effect xsi:type="sev:WindType" activate="false" si:pts="4905000" si:anchorElement="true"/>
+	<sedl:Effect xsi:type="sev:LightType" activate="false" si:pts="5940000" si:anchorElement="true"/>
+</sedl:SEM>
