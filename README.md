@@ -1,10 +1,9 @@
 # Mulsemedia with Health Sensors Devices
 
-Thesis
 
 ## Install
 
-Make sure your amBX set is not connected to the system until mentioned.
+1. Make sure your amBX set is not connected to the system until mentioned.
 
 3) If you've already been trying installing amBX on your current setup, make sure every piece of amBX-relatable software has been deleted/uninstalled, and that there is no Jungo Windrvr6 nor Philips AmBX device present in Device Manager (if so, delete/uninstall them and erase their drivers within Device Manager). You can find the Device Manager via 'Control Panel' -> view by 'Small Icons' -> 'Device Manager' OR right click on 'This PC' on your desktop -> 'Properties' -> 'Device Manager' on the left sidebar.
 
