@@ -14,23 +14,23 @@ Make sure your amBX set is not connected to the system until mentioned.
 
 3. Now, use 'the good old method' of adding windrvr6 as legacy hardware and updating the amBX driver in device manager:
 
-Open the Device Manager('Control Panel' -> view by 'Small Icons' -> 'Device Manager' OR right click on 'This PC' on your desktop -> 'Properties' -> 'Device Manager' on the left sidebar) and click on your computer or a random device within the manager to activate it, then go to 'Actions' on the top bar and click 'Add Legacy Hardware'.
+4. Open the Device Manager('Control Panel' -> view by 'Small Icons' -> 'Device Manager' OR right click on 'This PC' on your desktop -> 'Properties' -> 'Device Manager' on the left sidebar) and click on your computer or a random device within the manager to activate it, then go to 'Actions' on the top bar and click 'Add Legacy Hardware'.
 
-Click Next on the first screen
+5. Click Next on the first screen
 
-Select "Install the hardware that I manually select from a list (Advanced)"
+6. Select "Install the hardware that I manually select from a list (Advanced)"
 
-Leave "Show All Devices" highlighted and click Next
+7. Leave "Show All Devices" highlighted and click Next
 
-Click on Have Disk and browse to C:\Program Files (x86)\ambx\hardware (for 64-bit systems) or C:\Program Files\ambx\hardware (for 32-bit systems), select windrv6 and click Open
+8. Click on Have Disk and browse to C:\Program Files (x86)\ambx\hardware (for 64-bit systems) or C:\Program Files\ambx\hardware (for 32-bit systems), select windrv6 and click Open
 
-WinDriver will appear in the list, highlight this and click Next
+9. WinDriver will appear in the list, highlight this and click Next
 
-Click Next to confirm then Finish.
+10. Click Next to confirm then Finish.
 
-Connect and turn on your amBX device.
+11. Connect and turn on your amBX device.
 
-The device will not install correctly and will appear in your device manager with a yellow !
+12. The device will not install correctly and will appear in your device manager with a yellow !
 
 Right click on the newly found unknown device and select "Update Driver" Select "Let me pick from a list of device drivers on my computer"
 
