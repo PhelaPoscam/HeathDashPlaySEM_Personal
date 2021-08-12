@@ -4,10 +4,10 @@
 	<!-- Main configuration -->
 	<communicationServiceBroker>upnpService</communicationServiceBroker>
 	<metadataParser>mpegvParser</metadataParser>
-	<lightDevice>ambxLightDevice</lightDevice>
-	<windDevice>ambxWindDevice</windDevice>
+	<lightDevice>sedroidLightDevice</lightDevice>
+	<windDevice>mockWind</windDevice>
 	<!-- <windDevice>arduinoWindDevice</windDevice> -->
-	<vibrationDevice>ambxVibrationDevice</vibrationDevice>
+	<vibrationDevice>sedroidVibrationDevice</vibrationDevice>
 	<scentDevice>mockScent</scentDevice>
 	<!-- <scentDevice>blunoScentDevice</scentDevice>  -->
 	<!-- <scentDevice>exhaliaScentDevice</scentDevice> -->
@@ -138,12 +138,12 @@
 		<device>
 			<id>sedroidLightDevice</id>
 			<deviceClass>br.ufes.inf.lprm.sensoryeffect.renderer.device.sedroid.SedroidLightDevice</deviceClass>
-			<connectivityInterface>Bluetooth</connectivityInterface>
+			<connectivityInterface>WiFi</connectivityInterface>
 		</device>
 		<device>
 			<id>sedroidVibrationDevice</id>
 			<deviceClass>br.ufes.inf.lprm.sensoryeffect.renderer.device.sedroid.SedroidVibrationDevice</deviceClass>
-			<connectivityInterface>Bluetooth</connectivityInterface>
+			<connectivityInterface>WiFi</connectivityInterface>
 		</device>
 		
 		<!-- amBX Devices (Light, wind, vibration) -->
@@ -205,10 +205,9 @@
 			<connectivityInterfaceClass>br.ufes.inf.lprm.sensoryeffect.renderer.connectivity.wifi.WiFiOutput</connectivityInterfaceClass>
 			<earlyConnection>true</earlyConnection>
 			<properties>
-				<number-of-devices>1</number-of-devices>
-				<device01-address>192.168.0.101:8080</device01-address>
-				<device02-address>90.0.0.107:8080</device02-address>
-				<device03-address>90.0.0.102:8080</device03-address>
+				<number-of-devices>2</number-of-devices>
+				<device01-address>192.168.100.132:8080</device01-address>
+				<device02-address>172.21.30.45:8080</device02-address>
 			</properties>
 		</connectivityInterface>
 		<connectivityInterface>
